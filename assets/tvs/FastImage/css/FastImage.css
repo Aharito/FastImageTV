@@ -1,10 +1,11 @@
 .fi-placeholder {
     display: inline-block;
+	text-align: center;
     min-width:200px;
-    min-height:200px;
+    /*min-height:200px;*/
     position:relative;
-    border:1px dashed #000;
-    background: #fff;
+    /*border:1px dashed #000;*/
+    /*background: #fff;*/
     margin:10px 0 0 0;
 }
 .fi-placeholder.dnd:after {
@@ -21,12 +22,12 @@
     display: none;
 }
 .fi-actions {
-    position: absolute;
+    position: /*absolute*/relative;
     bottom:0;
     width:100%;
     text-align: center;
     padding:10px 0;
-    background: rgba(0,0,0,.5);
+    /*background: rgba(0,0,0,.5);*/
 }
 .fi-btn {
     display: inline-block;
@@ -59,10 +60,10 @@
 .fi-image {
     width:auto;
     height:auto;
-    max-width:200px;
+    max-width:250px;
     max-height:200px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    position:/*absolute*/relative;
+    /*top:50%;*/
+    /*left:50%;*/
+    /*transform: translate(-50%,-50%);*/
 }
